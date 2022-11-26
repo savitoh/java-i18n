@@ -11,12 +11,12 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-class DateTimeFormatTest {
+class DateTimeLocalizationClientTest {
 
   @ParameterizedTest
   @MethodSource("localDateTimeToFormattedValue")
   void testFormat(LocalDateTime localDateTime, Locale locale, String formattedValue) {
-    var dateTimeFormatClient = new DateTimeFormatClient();
+    var dateTimeFormatClient = new DateTimeLocalizationClient();
 
     var result = dateTimeFormatClient.format(localDateTime, locale);
 

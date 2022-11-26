@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.util.Locale;
 
-public class DateTimeFormatClient {
+public class DateTimeLocalizationClient {
 
   public String format(LocalDateTime localDateTime, Locale locale) {
     DateTimeFormatter dateTimeFormatter =
