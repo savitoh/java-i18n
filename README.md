@@ -9,3 +9,4 @@ Project to study i18n and l10n in Java.
 3. i18n Resources
 4. l10n DateTime
 5. l10n Date
+6. l10n Time
