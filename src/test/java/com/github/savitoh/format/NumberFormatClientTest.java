@@ -1,6 +1,5 @@
 package com.github.savitoh.format;
 
-import com.github.savitoh.format.NumberFormatClient;
 import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
